@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    // target compile JS version
+    "module": "commonjs",
+    // module language version
+    "outDir": "./build",
+    "rootDir": "./src",
+    "experimentalDecorators": true
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ],
+  "typeRoots": [
+    "./src/@types",
+    "./node_modules/@types"
+  ]
+}

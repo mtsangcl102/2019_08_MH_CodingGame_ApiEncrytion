@@ -1,0 +1,18 @@
+{
+    "name": "TestAssembly",
+    "references": [
+        "GUID:deba3b1f51072437e8c485c101bf2c12",
+        "GUID:e4b46df759d3047638217b5e3c7db6cd",
+        "GUID:83fa12e4334e04d4baa02238a1662d55"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}

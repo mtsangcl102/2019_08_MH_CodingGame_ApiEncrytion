@@ -1,0 +1,36 @@
+{
+  "name": "encrytpion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require ts-node/register ./Tests/EncryptionTest.ts --timeout=40000",
+    "test client": "mocha --require ts-node/register ./Tests/testing.ts --timeout=40000",
+    "jest client": "jest --testPathPattern=testing.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/md5": "^2.1.33",
+    "axios": "^0.19.0",
+    "crypto": "^1.0.1",
+    "crypto-ts": "^1.0.2",
+    "libsodium-wrappers-sumo": "^0.7.4",
+    "md5": "^2.2.1",
+    "sodium-native": "^2.4.2"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.1.7",
+    "@types/jest": "^24.0.15",
+    "@types/libsodium-wrappers-sumo": "^0.7.1",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.6.2",
+    "chai": "^4.2.0",
+    "jest": "^24.8.0",
+    "mocha": "^6.1.4",
+    "ts-jest": "^24.0.2",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  }
+}
