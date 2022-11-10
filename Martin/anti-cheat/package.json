@@ -24,7 +24,7 @@
     "chai": "^4.2.0",
     "jest": "^24.9.0",
     "libsodium": "^0.7.5",
-    "mocha": "^6.2.0",
+    "mocha": "^10.1.0",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^6.5.2",
     "sodium-native": "^2.4.6",
